@@ -1,0 +1,63 @@
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+*.bin
+*.elf
+
+# Directories
+build/
+bin/
+obj/
+Debug/
+Release/
+x6040release/
+x6040debug/
+
+# IDE specific files/folders
+.project
+.cproject
+.settings/
+.vscode/        # VS Code specific files
+.idea/          # CLion specific files
+*.user          # Qt creator specific files
+*.layout        # Code::Blocks specific files
+*.depend        # Code::Blocks specific files
+*.cbp           # Code::Blocks project files
+
+# CMake-specific
+CMakeCache.txt
+CMakeFiles/
+Testing/
+_CPack_Packages/
+DartConfiguration.tcl
+CTestTestfile.cmake
+cmake_install.cmake
+
+# Miscellaneous
+*.log
+*.tmp
+*.swp
+*~
+
