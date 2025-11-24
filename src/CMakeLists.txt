@@ -11,6 +11,6 @@ target_compile_features(libedb PUBLIC cxx_std_17)
 target_include_directories(
     libedb
     PRIVATE include
-    PUBLIC $(CMAKE_SOURCE_DIR)/include
+    PUBLIC ${CMAKE_SOURCE_DIR}/include
 )
 
