@@ -8,7 +8,7 @@ set_target_properties(
 
 target_compile_features(libedb PUBLIC cxx_std_17)
 
-target_include_directories(
+target_include_directories(libedb
     PUBLIC
       $<INSTALL_INTERFACE:include>
       $<BUILD_INTERFACE:${CMAKE_SOURCE_DIR}/include>
@@ -17,7 +17,8 @@ target_include_directories(
 )
 
 include(GNUInstallDirs)
-install( TARGETS libedb
+install(
+  TARGETS libedb
   EXPORT edb-targets
   LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
   ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR}
